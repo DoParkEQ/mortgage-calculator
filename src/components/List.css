@@ -1,0 +1,4 @@
+.list__content--large {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,151 @@
+.mortgage__container p {
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.mortgage__calculation button {
+  margin-top: 8px;
+}
+
+.mortgage__container hr {
+  margin: 16px 0px;
+  border-top: 1px solid #eee;
+}
+
+.mortgage__container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 12px rgba(81, 113, 151, 0.1);
+}
+
+.mortgage__calculation {
+  width: 100%;
+}
+
+.mortgage__calculation span {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.mortgage__calculation-content--large {
+  display: flex;
+}
+
+
+.mortgage__calculation-content button {
+  border-radius: 8px;
+  border: none;
+  background-color: hotpink;
+  padding: 8px 16px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.mortgage__calculation button:hover {
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.mortgage__estimation-inputs {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.mortgage__rate {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mortgage__container input {
+  border: none;
+}
+.input__container--disabled,
+.input__container {
+  padding: 8px 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #efefef4d;
+}
+
+.input__container {
+  background-color: #fff;
+}
+
+.input__container:focus {
+  outline: 1.5px solid blue;
+}
+.input__container--disabled input,
+.input__container input {
+  width: 100%;
+}
+
+.input__container input:focus {
+  outline: none;
+}
+
+.mortgage__estimation span {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.mortgage__estimation input {
+  border: none;
+}
+
+.mortgage__option select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mortgage__option select:disabled {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #efefef4d;
+  color: #444;
+}
+
+.mortgage__result__content {
+  display: block;
+}
+
+.mortgage__calculation-content--large button {
+  margin-top: 0px;
+  width: 150px;
+}
+
+.mortgage__option--large select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 150px;
+  background-color: #fff;
+}
+
+.mortgage__calculation--large button {
+  max-width: 150px;
+}
+
+.input__container--disabled,
+.input__container {
+  max-width: 150px;
+}
+
+.mortgage__estimation__inputs--large {
+  width: 308px;
+}
